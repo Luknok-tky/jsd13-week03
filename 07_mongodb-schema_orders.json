@@ -1,0 +1,14 @@
+[
+  {
+    "orderId": "order_69001",
+    "userId": "user_student_01", 
+    "productName": "Minimalist Petite Band Ring",
+    "selectedSize": 50,
+    "selectedColor": "สีโรสโกลด์",
+    "quantity": 1,
+    "totalPrice": 2490,
+    "shippingAddress": "นส. พลอยไพลิน ใจดี - หอพักนักศึกษาห้อง 402, 123 ถ.ฉลองกรุง, เขตลาดกระบัง, กรุงเทพฯ 10520",
+    "status": "ส่งแล้ว (Shipped)",
+    "trackingNumber": "TH123456789EX"
+  }
+]

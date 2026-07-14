@@ -1,0 +1,29 @@
+[
+  {
+    "userId": "user_student_01",
+    "name": "นส. พลอยไพลิน ใจดี",
+    "email": "ploy.lin@university.ac.th",
+    "password": "hashed_password_123",
+    "role": "customer",
+    "phone": "081-234-5678",
+    "address": "หอพักนักศึกษาห้อง 402, 123 ถ.ฉลองกรุง, เขตลาดกระบัง, กรุงเทพฯ 10520"
+  },
+  {
+    "userId": "user_jobber_02",
+    "name": "คุณ ณัฐวุฒิ เกียรติขจร",
+    "email": "nutthawut.k@company.com",
+    "password": "hashed_password_456",
+    "role": "customer",
+    "phone": "089-876-5432",
+    "address": "คอนโดสราญรมย์ ชั้น 12, 45/9 ถ.สุขุมวิท 21, แขวงคลองเตยเหนือ, เขตวัฒนา, กรุงเทพฯ 10110"
+  },
+  {
+    "userId": "user_everyday_03",
+    "name": "นาง วรรณพร เลิศวิจิตร",
+    "email": "wannaporn.le@gmail.com",
+    "password": "hashed_password_789",
+    "role": "customer",
+    "phone": "084-555-9999",
+    "address": "บ้านเลขที่ 88/8 หมู่บ้านแกรนด์พาร์ค, ถ.ราชพฤกษ์, ต.บางกรวย, อ.บางกรวย, นนทบุรี 11130"
+  }
+]

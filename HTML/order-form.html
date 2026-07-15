@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Form</title>
+  </head>
+  <body>
+    <h1>Mala-Thod</h1>
+    <p>Order Here</p>
+    <form action="/api/order" method="get">
+      <label>
+        ชื่อลูกค้า
+        <input id="customername" type="text" name="customername" required />
+      </label>
+      <p>ระดับความเผ็ด</p>
+
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+        <label>
+        <input type="radio" name="Spice level" />
+        🔥 Lv.1 เผ็ดแบบเบาๆ
+        </label>
+        <label>
+        <input type="radio" name="Spice level" />
+        🔥🔥 Lv.2 เผ็ดแบบจี๊ดจ๊าด
+        </label>
+        <label>
+        <input type="radio" name="Spice level" />
+        🔥🔥🔥 Lv.3 เผ็ดแบบซี้ดพ่นไฟ
+        </label>
+        <label>
+        <input type="radio" name="Spice level" />
+        🔥🔥🔥🔥 Lv.4 เผ็ดแบบสะท้านใจ
+         </label>
+        <label>
+        <input type="radio" name="Spice level" />
+        🔥🔥🔥🔥🔥 Lv.5 เผ็ดแบบเทพเจ้าหม่าล่า
+        </label>
+    </div>
+
+    <p>รายการอาหาร</p>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+        
+        <label>
+        <input type="checkbox" name="meat" value="pork"/>
+        เห็ดพันเบคอน
+        </label>
+
+        <label>
+        <input type="checkbox" name="vegetable" value="vegetable"/>
+        เห็ดออรินจิ
+        </label>
+
+        <label>
+        <input type="checkbox" name="vegetable" value="vegetable"/>
+        หอมทอด
+        </label>
+
+        <label>
+        <input type="checkbox" name="vegetable" value="vegetable"/>
+        ข้าวโพด
+        </label>
+
+        <label>
+        <input type="checkbox" name="vegetable" value="vegetable"/>
+        มันฝรั่งเสียบไม้
+        </label>
+
+        <label>
+        <input type="checkbox" name="vegetable" value="vegetable"/>
+        ฟักทอง
+        </label>
+
+        <label>
+        <input type="checkbox" name="meat" value="pork"/>
+        เต้าหู้ชีส
+        </label>
+
+        <label>
+        <input type="checkbox" name="meat" value="pork"/>
+        แฮม
+        </label>
+
+        <label>
+        <input type="checkbox" name="meat" value="fish"/>
+        ปูอัด
+        </label>
+
+        <label>
+        <input type="checkbox" name="meat" value="chicken"/>
+        ไส้กรอกแดง
+        </label>
+
+        <label>
+        <input type="checkbox" name="meat" value="pork"/>
+        สามชั้นเสียบไม้
+        </label>
+
+        <label>
+        <input type="checkbox" name="meat" value="pork"/>
+        หมูสันนอก
+        </label>
+        </div>
+    <button type="submit">สั่งอาหาร</button>
+    
+    </form>
+  </body>
+</html>

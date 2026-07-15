@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/api/register" method="post">
+  <h1>Register form</h1>
+
+  <label>
+    ชื่อผู้ใช้: 
+    <input type="text" placeholder="กรุณากรอกชื่อผู้ใช้" />
+  </label>
+  <br /><br />
+
+  <label>
+    รหัสผ่าน: 
+    <input type="password" />
+  </label>
+  <br /><br />
+
+  <label>
+    อีเมล: 
+    <input type="email" required />
+  </label>
+  <br /><br />
+
+  <p>เลือกแพ็กเกจ</p>
+  <label>
+    <input type="radio" name="package" /> ฟรี (Free)
+  </label>
+  <br />
+
+  <label>
+    <input type="radio" name="package" /> พรีเมียม (Premium)
+  </label>
+  <br /><br />
+
+  <p>ความสนใจ</p>
+  <label>
+    <input type="checkbox" name="hobby" value="movie" /> ดูหนัง
+  </label>
+  <br />
+
+  <label>
+    <input type="checkbox" name="hobby" value="music" /> ฟังเพลง
+  </label>
+  <br />
+
+  <label>
+    <input type="checkbox" name="hobby" value="game" /> เล่นเกม
+  </label>
+  <br /><br />
+
+  <button type="submit">ยืนยันการสมัคร</button>
+
+</form>
+</body>
+</html>

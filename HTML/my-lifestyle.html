@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ไอเท็มที่มีแล้วชีวิตดีขึ้น ✨</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;600&display=swap');
+
+        :root {
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #212529;
+            --text-muted: #6c757d;
+            --accent-color: #4f46e5;
+        }
+
+        body {
+            font-family: 'Anuphan', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        .item-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .item-card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            display: flex;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .item-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-image {
+            width: 40%;
+            min-width: 200px;
+            object-fit: cover;
+        }
+
+        .item-content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 60%;
+        }
+
+        .item-number {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .item-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            color: var(--text-color);
+        }
+
+        .item-desc {
+            color: var(--text-muted);
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+        @media (max-width: 600px) {
+            .item-card {
+                flex-direction: column;
+            }
+            .item-image {
+                width: 100%;
+                height: 200px;
+            }
+            .item-content {
+                width: 100%;
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>5 ไอเท็มที่มีแล้วแล้วชีวิตดีขึ้น ✨</h1>
+        <p>ลิสต์ของใช้และบริการที่ช่วยยกระดับความสะดวกสบาย สุขภาพ และความสุขในทุกๆ วัน</p>
+    </header>
+
+    <div class="item-list">
+        <div class="item-card">
+            <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSY5NGS_vvz0vMsFvYcescPeHjGvWFxRwan_KJqfjjE9zim3MaEfGIZy_Wzl-cQNl8soQXA8qashIJ-D-Y" alt="Standing Desk" class="item-image">
+            <div class="item-content">
+                <div class="item-number">Item 01</div>
+                <h2 class="item-title">โต๊ะปรับระดับไฟฟ้า (Standing Desk)</h2>
+                <p class="item-desc">ตัวช่วยลดการนั่งแช่เป็นเวลานาน สลับมายืนทำงานได้ง่ายๆ ช่วยลดอาการปวดหลังและกระตุ้นพลังงานระหว่างวันได้ดีมาก</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTYp5PIVTTzx4qOeKBPZavPVXH5jwAEkMqZvdF_9yF1RKnfsAzru-o-pKgZ6VcQ25DVWp1s5GcG-c3zERA" alt="Ergonomic Chair" class="item-image">
+            <div class="item-content">
+                <div class="item-number">Item 02</div>
+                <h2 class="item-title">เก้าอี้สุขภาพ (Ergonomic Chair)</h2>
+                <p class="item-desc">การลงทุนกับสรีระที่คุ้มค่าที่สุด ซัพพอร์ตทั้งหลัง คอ และสะโพก ทำให้นั่งทำงานได้นานขึ้นโดยไม่ทำลายสุขภาพในระยะยาว</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSQ3_RGNAaeGTYIjJK9UIMk_UZcrOQxwXJ2tmVn5Q24bUbZ4N1Se5IpldKX2wqj-Z23gf9qLoVBGQQ1Nlk" alt="Bluetooth Switch" class="item-image">
+            <div class="item-content">
+                <div class="item-number">Item 03</div>
+                <h2 class="item-title">สวิตช์บลูทูธ (Bluetooth Switch)</h2>
+                <p class="item-desc">เปลี่ยนบ้านธรรมดาให้เป็น Smart Home สั่งเปิด-ปิดไฟ หรือเครื่องใช้ไฟฟ้าได้จากระยะไกล ไม่ต้องลุกไปกดเองให้เสียเวลา</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRdn9pM8uBXasHxeAlnUXgKo2szYg5_Fn5P6VdR0b0uoLFZCzTD-BuoWBM-f8_VYeTCqyNUtWFN5XHJmj4" alt="YouTube Premium" class="item-image">
+            <div class="item-content">
+                <div class="item-number">Item 04</div>
+                <h2 class="item-title">YouTube Premium</h2>
+                <p class="item-desc">หมดปัญหาโฆษณาคั่นให้หงุดหงิดใจ ฟังเพลงหรือดูคลิปยาวๆ ได้ต่อเนื่อง แถมยังพับจอเล่นแอปอื่นหรือล็อกจอไปพร้อมกันได้ด้วย</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRaK_5i_Dgec70FDeO8CKE-QSKynXI9pCLubOWNi7qLBgJe6LqyBIMQTHQibH7m0UUPKlZ590MKttWtBwk" alt="Air Fryer" class="item-image">
+            <div class="item-content">
+                <div class="item-number">Item 05</div>
+                <h2 class="item-title">หม้อทอดไร้น้ำมัน (Air Fryer)</h2>
+                <p class="item-desc">นวัตกรรมกู้ชีพสำหรับคนทำอาหารไม่เก่ง แค่จับโยนเข้าหม้อ ตั้งเวลา ก็ได้กินของอร่อยแบบกรอบอร่อยและลดน้ำมันไปในตัว</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
